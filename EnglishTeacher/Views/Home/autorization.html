@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <script src="../../Scripts/jquery-1.10.2.js"></script>
+    <script src="../../Scripts/popup.js"></script>
+    <script src="../../Scripts/bootstrap.min.js"></script>
+    <link href="../../Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="../../Content/extantion.css" rel="stylesheet" />
+    <title>chrome-extension://idmkbfegdginpeohickgddcmannkbdjk</title>
+</head>
+<body>
+    <div class="container container-no-padding">
+        <div class="row">
+            <div class="col-md-offset-3 col-md-6">
+                <div class="tab" role="tabpanel">
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="active"><a href="#Sign-In" aria-controls="home" role="tab" data-toggle="tab">sign in</a></li>
+                        <li role="presentation"><a href="#Sign-Up" aria-controls="profile" role="tab" data-toggle="tab">sign up</a></li>
+                    </ul>
+                    <!-- Tab panes -->
+                    <div class="tab-content tabs">
+                        <div role="tabpanel" class="tab-pane fade in active" id="Sign-In">
+                            <form action="main.html" class="form-horizontal" id="form">
+                                <div class="form-group">
+                                    <label for="emailLogin">username</label>
+                                    <input type="email" class="form-control" id="emailLogin">
+                                </div>
+                                <div class="form-group">
+                                    <label for="passwordLogin">Password</label>
+                                    <input type="password" class="form-control" id="passwordLogin">
+                                </div>
+                                <div class="form-group">
+                                    <div class="main-checkbox">
+                                        <input value="None" id="checkbox1" name="check" type="checkbox">
+                                        <label for="checkbox1"></label>
+                                    </div>
+                                    <span class="text">Keep me Signed in</span>
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="btn btn-default" id="but-Sign-In">Sign in</button>
+                                </div>
+                                <div class="form-group forgot-pass">
+                                    <button type="submit" class="btn btn-default">forgot password</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="Sign-Up">
+                            <form class="form-horizontal">
+                                <!--<div class="form-group">
+                                    <label for="exampleInputEmail1">First Name</label>
+                                    <input type="text" class="form-control" id="exampleInputEmail1">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Last Name</label>
+                                    <input type="text" class="form-control" id="exampleInputEmail1">
+                                </div>-->
+                                <div class="form-group">
+                                    <label for="inputEmail">Email address</label>
+                                    <input type="email" class="form-control" id="inputEmail">
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputPassword">Password</label>
+                                    <input type="password" class="form-control" id="inputPassword">
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputPasswordConfirmation">Password confirmation</label>
+                                    <input type="password" class="form-control" id="inputPasswordConfirmation">
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="btn btn-default" id="but-Sign-Up">Sign up</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+            </div><!-- /.col-md-offset-3 col-md-6 -->
+        </div><!-- /.row -->
+    </div><!-- /.container -->
+</body>
+</html>
+
+
+<!--<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <script src="../../Scripts/jquery-1.10.2.js"></script>
+    <script src="../../Scripts/popup.js"></script>
+    <script src="../../Scripts/bootstrap.min.js"></script>
+    <link href="../../Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="../../Content/extantion.css" rel="stylesheet" />
+    <title></title>
+</head>
+<body>
+    <div class="userInfo" style="display:none;">
+        <p>Вы вошли как: <span class="userName"></span></p>
+        <input type="button" value="Выйти" id="logOut" />
+        <input type="submit" id="getItemsButton" value="Получить данные" />
+    </div>
+    <div class="form-group loginForm">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="emailLogin" aria-describedby="emailHelp" placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+    <div class="form-group loginForm">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" id="passwordLogin" placeholder="Password">
+    </div>
+    <div class="form-check loginForm">
+        <label class="form-check-label">
+            <input type="checkbox" class="form-check-input">
+            Check me out
+        </label>
+    </div>
+    <button type="submit" id="submitLogin" class="btn btn-primary loginForm">Submit</button>
+</body>
+</html>-->
